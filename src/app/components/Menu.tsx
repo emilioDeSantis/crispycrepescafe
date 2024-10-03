@@ -46,12 +46,15 @@ const Menu: React.FC = () => {
     };
 
     return (
-        <div className="side-padding" style={{ 
-            display: 'flex',
-            width: '100%',
-            justifyContent: 'center',
-            }}>
-            <div style={{ maxWidth: "1100px", width: '100%', }}>
+        <div
+            className="side-padding"
+            style={{
+                display: "flex",
+                width: "100%",
+                justifyContent: "center",
+            }}
+        >
+            <div style={{ maxWidth: "1100px", width: "100%" }}>
                 <nav
                     style={{
                         position: "sticky",
@@ -114,9 +117,11 @@ const Menu: React.FC = () => {
                     {menuData.map((mainCategory: MainCategory) => (
                         <div
                             key={mainCategory.name}
-                            ref={(el) =>
-                                (categoryRefs.current[mainCategory.name] = el)
-                            }
+                            ref={(el) => {
+                                if (el)
+                                    categoryRefs.current[mainCategory.name] =
+                                        el;
+                            }}
                             style={{
                                 marginTop: "1rem",
                                 scrollMarginTop: "5rem",
@@ -138,7 +143,7 @@ const Menu: React.FC = () => {
                             {mainCategory.subCategories.map((subCategory) => (
                                 <div
                                     key={subCategory.name}
-                                    style={{ marginBottom: "2rem", }}
+                                    style={{ marginBottom: "2rem" }}
                                 >
                                     <h3
                                         style={{
@@ -152,16 +157,13 @@ const Menu: React.FC = () => {
                                     <p
                                         style={{
                                             color: "#4b5563",
-                                            marginBottom: "1.6rem", marginTop: "0.4rem"
+                                            marginBottom: "1.6rem",
+                                            marginTop: "0.4rem",
                                         }}
                                     >
                                         {subCategory.description}
                                     </p>
-                                    <div
-                                    className="items-grid"
-                                        style={{
-                                        }}
-                                    >
+                                    <div className="items-grid" style={{}}>
                                         {subCategory.items.map(
                                             (item, index) => (
                                                 <Item key={index} item={item} />
