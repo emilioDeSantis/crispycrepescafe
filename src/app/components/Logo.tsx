@@ -15,7 +15,7 @@ const Logo = () => {
             }}
         >
             <Image
-                src={"/logo7.png"}
+                src={"/logosmall.png"}
                 layout="fill"
                 objectFit="cover"
                 alt={`crispy crepes storefront`}
