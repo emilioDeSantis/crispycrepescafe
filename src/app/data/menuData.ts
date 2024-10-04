@@ -56,7 +56,7 @@ export const menuData: MenuData = [
                 description: "",
                 items: [
                     {
-                        name: "Nutella or Chocolate",
+                        name: "Nutella or Chocolate Chips",
                         price: 6.5,
                     },
                     {
@@ -74,6 +74,30 @@ export const menuData: MenuData = [
                     {
                         name: "Coconut Banana Nutella",
                         price: 9.75,
+                    },
+                    {
+                        name: "Nutella, Apple, Coconut",
+                        price: 9.75,
+                    },
+                    {
+                        name: "Strawberries, Nutella",
+                        price: 9.75,
+                    },
+                    {
+                        name: "Honey, Strawberries, Almond",
+                        price: 9.75,
+                    },
+                    {
+                        name: "Strawberries, Banana, Nutella",
+                        price: 9.55,
+                    },
+                    {
+                        name: "Nutella Banana",
+                        price: 8.80,
+                    },
+                    {
+                        name: "Apple, Brown Sugar, Caramel, Cinnamon",
+                        price: 8.95,
                     },
                 ],
             },
@@ -121,6 +145,21 @@ export const menuData: MenuData = [
                         description: "Chicken, Spinach, Mild Salsa, Cheddar",
                         price: 11.95,
                     },
+                    {
+                        name: "French Dip",
+                        description: "Roast Beef, Onion, Au Jus Brie Cheese",
+                        price: 12.0,
+                    },
+                    {
+                        name: "Alex the Greek",
+                        description: "Turkey, Spinach, Feta Cheese, Tomato",
+                        price: 11.95,
+                    },
+                    {
+                        name: "California",
+                        description: "Turkey, Avocado, Tomato, Cucumber, Spinach, Cheese",
+                        price: 12.0,
+                    },
                 ],
             },
             {
@@ -138,6 +177,14 @@ export const menuData: MenuData = [
                     {
                         name: "Pepper, Onion, Mushroom, Cheese",
                         price: 9.9,
+                    },
+                    {
+                        name: "Tomato, Zucchini, Pepper, Cheese",
+                        price: 9.8,
+                    },
+                    {
+                        name: "Egg, Tomato, Mushrooms, Spinach, Cheese",
+                        price: 9.8,
                     },
                 ],
             },
@@ -162,6 +209,12 @@ export const menuData: MenuData = [
                         description:
                             "Plum Tomato, Spinach, Mushroom, Sundried Tomato, Ricotta Cheese",
                         price: 10.4,
+                    },
+                    {
+                        name: "Three Mushroom",
+                        description:
+                            "Roasted Assorted Mushrooms, Spinach, Goat Cheese",
+                        price: 10.7,
                     },
                 ],
             },
@@ -502,7 +555,7 @@ export const menuData: MenuData = [
                         price: 18.9,
                     },
                     {
-                        name: "BN Special",
+                        name: "BU Special",
                         description:
                             "Chicken, Garlic Oil, Onion, Mushroom, Zucchini, Tomato",
                         price: 18.9,

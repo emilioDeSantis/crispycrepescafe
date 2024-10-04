@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Reservation from "./components/Reservation";
 import Menu from "./components/Menu";
 import MenuTeaser from "./components/MenuTeaser";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -96,11 +97,9 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                     objectFit="cover"
                     alt={`crispy crepes storefront`}
                     sizes="100vw"
-                    style={
-                        {
-                            opacity: 0.6,
-                        }
-                    }
+                    style={{
+                        opacity: 0.6,
+                    }}
                 />
                 <div
                     style={{
@@ -156,7 +155,38 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                     </button>
                 </div>
             </div>
-            <MenuTeaser/>
+            <div
+                className="side-padding"
+                style={{
+                    display: "flex",
+                    width: "100%",
+                    flexDirection: "column",
+                    alignItems: "center",
+                }}
+            >
+                <h2
+                    style={{
+                        fontSize: "2.5rem",
+                        color: "#19bb7d",
+                        fontFamily: "Alex Brush",
+                        lineHeight: 1,
+                        marginTop: "2rem",
+                    }}
+                >
+                    Discover Our
+                </h2>
+                <h3
+                    style={{
+                        fontSize: "3.6rem",
+                        color: "#333",
+                        marginBottom: "2rem",
+                        lineHeight: 1,
+                    }}
+                >
+                    Menu
+                </h3>
+            </div>
+            <Menu/>
         </main>
     );
 }
