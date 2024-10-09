@@ -423,39 +423,39 @@ export const menuData: MenuData = [
                 description: "",
                 items: [
                     {
-                        name: "Lamb Kabab",
+                        name: "Lamb Kabab Rollup",
                         description:
                             "Moroccan Lamb, Lettuce, Tomato, Humus, Tahini",
                         price: 11.95,
                     },
                     {
-                        name: "Chicken Kabab",
+                        name: "Chicken Kabab Rollup",
                         description: "Lettuce, Tomato, Humus, Tahini",
                         price: 11.8,
                     },
                     {
-                        name: "Beef Shawarma",
+                        name: "Beef Shawarma Rollup",
                         description: "Lettuce, Tomato, Humus, Tahini",
                         price: 11.95,
                     },
                     {
-                        name: "Chicken Shawarma",
+                        name: "Chicken Shawarma Rollup",
                         description: "Lettuce, Tomato, Humus, Tahini",
                         price: 11.8,
                     },
                     {
-                        name: "Kafta",
+                        name: "Kafta Rollup",
                         description:
                             "Ground Beef, Lettuce, Tomato, Humus, Tahini",
                         price: 11.7,
                     },
                     {
-                        name: "Kafta Egg",
+                        name: "Kafta Egg Rollup",
                         description: "Lettuce, Tomato, Humus, Tahini, Egg",
                         price: 11.85,
                     },
                     {
-                        name: "Falafel",
+                        name: "Falafel Rollup",
                         description: "Lettuce, Tomato, Humus, Tahini",
                         price: 9.95,
                     },

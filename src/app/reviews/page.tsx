@@ -65,8 +65,9 @@ export default function Reviews(): JSX.Element {
             }}>
                 <h2 style={{
                     fontSize: "2.5rem",
-                    color: "#4CAF50",
-                    fontFamily: "cursive",
+                    color: "#19bb7d",
+                    fontFamily: "Alex Brush",
+                    lineHeight: 1,  
                     marginBottom: "0.5rem",
                 }}>
                     What People Say

@@ -136,7 +136,7 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                     >
                         Crispy Crepes Cafe
                     </h2>
-                    <button
+                    <Link href="/menu"
                         style={{
                             color: "white",
                             backgroundColor: "#19bb7d",
@@ -152,7 +152,7 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                         }}
                     >
                         View menu
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div
