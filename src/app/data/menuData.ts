@@ -338,7 +338,7 @@ export const menuData: MenuData = [
                         price: 7.25,
                     },
                     {
-                        name: "Special",
+                        name: "French Toast Special",
                         description: "Banana, Strawberry, Cinnamon",
                         price: 9.75,
                     },
