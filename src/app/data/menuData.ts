@@ -544,7 +544,7 @@ export const menuData: MenuData = [
                 description: "",
                 items: [
                     {
-                        name: "Mediterranean",
+                        name: "Mediterranean Pasta",
                         description:
                             "Chicken, Sundried Tomato, Roasted Pepper, Spinach, Garlic, Olive Oil",
                         price: 18.9,

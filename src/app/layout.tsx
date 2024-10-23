@@ -4,23 +4,23 @@ import "./globals.css";
 
 export const metadata = {
     openGraph: {
-        title: "Crispy Crepes Cafe | Serving Boston University",
+        title: "Crispy Crepes Cafe. Serving Boston University",
         description:
             "Blend of Taste - Crispy Crepes Cafe",
         url: "https://www.cripsycrepescafe.com/",
         siteName: "cripsycrepescafe.com",
-        // images: [
-        //     {
-        //         url: "https://sushipalace-seven.vercel.app/og.png",
-        //         width: 600,
-        //         height: 900,
-        //     },
-        // ],
+        images: [
+            {
+                url: "https://crispycrepescafe.com/og.png",
+                width: 600,
+                height: 900,
+            },
+        ],
         locale: "en_US",
         type: "website",
     },
 
-    title: "Crispy Crepes Cafe | Serving Boston University",
+    title: "Crispy Crepes Cafe. Serving Boston University",
     description: "Blend of Taste - Crispy Crepes Cafe",
 };
 

@@ -69,7 +69,7 @@ const Header: React.FC = () => {
                         alignItems: "center",
                     }}
                 >       <PhoneCallButton/>
-                <button style={{
+                {/* <button style={{
                     color: 'white',
                     background: 'transparent',
                     padding: '0.4rem 1.6rem',
@@ -79,7 +79,7 @@ const Header: React.FC = () => {
                     zIndex: 2,
                     border : '1px solid white',
                     cursor: 'pointer',
-                }}>Order online</button>
+                }}>Order online</button> */}
                     {links.map((link, index) => (
                         <Link
                             key={index}

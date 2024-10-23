@@ -27,12 +27,13 @@ const Hero = () => {
             />
             <div style={{display: 'flex',
               position: 'absolute',
-              justifyContent: 'center',
+              justifyContent: 'flex-end',
               alignItems: 'center',
               flexDirection: 'column',
               width: '100%',
               height: '100%',
               gap: '1rem',
+              paddingBottom : '5rem',
             }}>
                 <p
                     style={{
@@ -73,7 +74,7 @@ const Hero = () => {
                 >
                     To the Heart of Boston University
                 </h2>
-                <button style={{
+                {/* <button style={{
                     color: 'white',
                     backgroundColor: '#19bb7d',
                     padding: '1rem 3rem',
@@ -85,7 +86,7 @@ const Hero = () => {
                     marginTop: '2rem',
                     cursor: 'pointer',
                     boxShadow: '0 0 20px 0 #00000055',
-                }}>Order online</button>
+                }}>Order online</button> */}
             </div>
         </div>
     );
