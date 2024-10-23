@@ -16,24 +16,23 @@ const Hero = () => {
             }}
         >
             <Image
-                src={"/front.png"}
+                src={"/hero.png"}
                 layout="fill"
                 objectFit="cover"
                 alt={`crispy crepes storefront`}
                 sizes="100vw"
                 style={{
-                  opacity: 0.6,
+                  opacity: 1,
                 }}
             />
             <div style={{display: 'flex',
               position: 'absolute',
-              justifyContent: 'flex-end',
+              justifyContent: 'center',
               alignItems: 'center',
               flexDirection: 'column',
               width: '100%',
               height: '100%',
               gap: '1rem',
-              paddingBottom : '5rem',
             }}>
                 <p
                     style={{
