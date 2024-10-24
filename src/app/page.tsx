@@ -92,7 +92,7 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                 }}
             >
                 <Image
-                    src={"/counter.png"}
+                    src={"/plate.png"}
                     layout="fill"
                     objectFit="cover"
                     alt={`crispy crepes storefront`}
