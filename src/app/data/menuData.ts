@@ -318,7 +318,7 @@ export const menuData: MenuData = [
                         price: 7.95,
                     },
                     {
-                        name: "Plain",
+                        name: "Plain Pancakes",
                         price: 6.9,
                     },
                     {
