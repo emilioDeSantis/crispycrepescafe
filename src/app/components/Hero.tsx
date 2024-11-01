@@ -16,7 +16,7 @@ const Hero = () => {
             }}
         >
             <Image
-                src={"/hero.png"}
+                src={"/hero.jpeg"}
                 layout="fill"
                 objectFit="cover"
                 alt={`crispy crepes storefront`}

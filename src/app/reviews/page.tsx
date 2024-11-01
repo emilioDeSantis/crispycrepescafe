@@ -52,7 +52,7 @@ export default function Reviews(): JSX.Element {
     return (
         <main style={{ width: "100%" }}>
             <PageHero
-                backgroundImage="/crepes.png"
+                backgroundImage="/crepes.jpeg"
                 subtitle="BRINGING THE"
                 title="Delicious Taste of French Crepes"
             />

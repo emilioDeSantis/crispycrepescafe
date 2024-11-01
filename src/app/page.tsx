@@ -70,7 +70,7 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                     }}
                 >
                     <Image
-                        src={"/fancy.png"}
+                        src={"/fancy.jpeg"}
                         layout="fill"
                         objectFit="cover"
                         alt={`eggs and toast`}
@@ -92,7 +92,7 @@ From our cozy spot on Commonwealth Ave, we continue to serve up the perfect blen
                 }}
             >
                 <Image
-                    src={"/plate.png"}
+                    src={"/plate.jpeg"}
                     layout="fill"
                     objectFit="cover"
                     alt={`crispy crepes storefront`}

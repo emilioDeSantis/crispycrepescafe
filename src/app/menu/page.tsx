@@ -13,7 +13,7 @@ const MenuPage: React.FC = () => {
               }}
         >
             <PageHero
-                backgroundImage="/sugar2.png"
+                backgroundImage="/sugar2.jpeg"
                 subtitle="Bringing the"
                 title="Delicious Taste of French Crepes"
             />
